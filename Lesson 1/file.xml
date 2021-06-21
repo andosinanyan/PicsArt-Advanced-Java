@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="16" class="java.beans.XMLDecoder">
+ <object class="Phone">
+  <void property="model">
+   <string>samsung Galaxy A30</string>
+  </void>
+  <void property="phoneBook">
+   <array class="int" length="3">
+    <void index="0">
+     <int>99141513</int>
+    </void>
+    <void index="1">
+     <int>41456547</int>
+    </void>
+    <void index="2">
+     <int>91112233</int>
+    </void>
+   </array>
+  </void>
+  <void property="phoneOS">
+   <object class="AndroidSystem">
+    <void property="version">
+     <string>kit-kat</string>
+    </void>
+   </object>
+  </void>
+  <void property="price">
+   <int>1500</int>
+  </void>
+ </object>
+</java>
